@@ -1,4 +1,8 @@
-let arr =["Keshav","sharma","pw skills","india","ellora","pw skills"];
-
-let lastOccurence =arr.lastIndexOf("pw skills");
-console.log("last occurence of pw skill is ", lastOccurence);
+let input2=3;
+for(let i=0;i<input2;i++){
+    let s='';
+    for(let j=0;j<input2;j++){
+        s=s+'*';
+    }
+    console.log(s);
+}

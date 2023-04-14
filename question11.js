@@ -1,0 +1,13 @@
+let date=new Date();
+let year=date.getFullYear();
+console.log(year);
+let month=date.getMonth();
+console.log(month);
+console.log(date.getDate());
+console.log(`${date.getDate()}/${year}/${month+1}`);
+console.log(`${date.getDay()}`);
+console.log(date.getHours());
+console.log(date.getMinutes());
+let date2=new Date(1970,0,1);
+let elapsed=date-date2;
+console.log(elapsed);

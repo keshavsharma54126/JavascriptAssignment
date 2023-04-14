@@ -1,0 +1,11 @@
+let shoppingCart = ['Milk','Coffee', 'Tea','Honey'];
+shoppingCart.unshift('Meat');
+console.log(shoppingCart);
+shoppingCart.push('Mango');
+console.log(shoppingCart);
+shoppingCart.pop();
+shoppingCart.pop();
+console.log(shoppingCart);
+shoppingCart.pop();
+shoppingCart.push('Green Tea');
+console.log(shoppingCart);

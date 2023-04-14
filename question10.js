@@ -1,0 +1,15 @@
+console.log(4>3);
+let ans=4<3;
+console.log(ans);
+console.log(4<=3);
+console.log(4==4);
+console.log(4===4);
+console.log(4!=4);
+console.log(4!==4);
+console.log(4!='4');
+console.log(4=='4');
+console.log(4==='4');
+let var1='python';
+let var2='jargon';
+let var3=var1.length<var2.length;
+console.log(var3);

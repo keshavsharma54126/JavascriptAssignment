@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qUESTION 13</title>
+</head>
+<body>
+    <H1>QUESTION 13</H1>
+    <h2 class="text"></h2>
+
+
+    <script>
+            let oldEnough=prompt("enter your age");
+            let ans=document.querySelector(".text");
+            if(oldEnough>=18){
+                console.log("you are  allowed to drive");
+                ans.innerHTML="you are  allowed to drive";
+            }
+            else{
+                let rem=18-oldEnough;
+                console.log("you are not allowed to drive and you have ",rem," year left to become eligible");
+                ans.innerText="you are not allowed to drive and you have "+rem+" year left to become eligible"; 
+            }
+    </script>
+</body>
+</html>
